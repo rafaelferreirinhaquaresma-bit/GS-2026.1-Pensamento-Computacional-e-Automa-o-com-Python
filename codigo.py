@@ -1,15 +1,15 @@
 
-nome_missao = "Orion Test Alpha"
-nome_equipe = "Equipe Apollo"
+nome_missao = "Titan Research Mission"
+nome_equipe = "Nebula Coder"
 
 # Matriz principal da missão (6 ciclos)
 dados_missao = [
-    [24, 92, 88, 96, 90],
-    [27, 80, 72, 94, 85],
-    [31, 65, 58, 91, 70],
-    [36, 42, 38, 87, 55],
-    [39, 28, 19, 78, 35],
-    [34, 55, 32, 82, 50]
+    [22, 95, 93, 98, 94],  # ciclo 1
+    [25, 88, 85, 96, 89],  # ciclo 2
+    [29, 74, 71, 93, 82],  # ciclo 3
+    [33, 57, 49, 88, 66],  # ciclo 4
+    [38, 35, 24, 81, 43],  # ciclo 5
+    [32, 61, 41, 85, 58]   # ciclo 6
 ]
 
 areas_monitoradas = [
