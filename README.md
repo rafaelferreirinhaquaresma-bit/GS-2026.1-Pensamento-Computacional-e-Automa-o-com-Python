@@ -1,0 +1,1 @@
+# GS-2026.1-Pensamento-Computacional-e-Automa-o-com-Python
