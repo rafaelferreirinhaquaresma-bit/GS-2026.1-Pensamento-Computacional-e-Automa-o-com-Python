@@ -1,7 +1,3 @@
-# ============================================================
-# MISSION CONTROL AI
-# Global Solution - FIAP
-# ============================================================
 
 nome_missao = "Orion Test Alpha"
 nome_equipe = "Equipe Apollo"
@@ -24,10 +20,7 @@ areas_monitoradas = [
     "Estabilidade operacional"
 ]
 
-
-# ============================================================
 # FUNÇÕES DE ANÁLISE
-# ============================================================
 
 def analisar_temperatura(valor):
     if valor < 18:
@@ -108,9 +101,7 @@ def gerar_recomendacao(alertas):
         return "Manter operação normal e continuar monitoramento."
 
 
-# ============================================================
 # PROCESSAMENTO DA MISSÃO
-# ============================================================
 
 riscos_ciclos = []
 pontuacao_areas = [0, 0, 0, 0, 0]
@@ -160,9 +151,7 @@ for i, ciclo in enumerate(dados_missao, start=1):
     print(f"Classificação: {classificacao}")
     print(f"Recomendação: {recomendacao}")
 
-# ============================================================
 # RELATÓRIO FINAL
-# ============================================================
 
 media_temperatura = sum(c[0] for c in dados_missao) / len(dados_missao)
 media_comunicacao = sum(c[1] for c in dados_missao) / len(dados_missao)
