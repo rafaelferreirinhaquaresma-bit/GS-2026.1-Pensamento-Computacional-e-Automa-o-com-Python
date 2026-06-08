@@ -11,7 +11,7 @@
 
 ## Missão
 
-**Orion Test Alpha**
+**Titan Research Mission**
 
 O projeto Mission Control AI simula o monitoramento inteligente de uma missão espacial experimental.
 
